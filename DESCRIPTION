@@ -1,0 +1,22 @@
+Package: DESeqGraphPresets
+Title: Compilation of Graphs for DESeqDataSets
+Version: 1.0
+Authors@R:person("Dennis", "Minn", email = "dminn@umass.edu", 
+  role = c("aut", "cre"))
+Description:  This is a collection of graphs that allow the user to emphasize specific genes within the
+  data created by DESeq2. These graphs parallel that of those found online on either the DESeq2 
+  vignette or BioConductor course material, but requires less knowledge about R's code and data manipulation. Hopefully,
+  this simplifies and expedites the process of visualizing data. 
+
+              
+License:  GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Depends: 
+    R (>= 2.10)
+Import: 
+  dplyr, SummarizedExperiment, 
+  org.Hs.eg.db, AnnotationDbi, DESeq2,
+  ggplot2, ggrepel

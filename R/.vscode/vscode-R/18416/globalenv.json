@@ -1,0 +1,1 @@
+{"x":{"class":["character"],"type":"character","length":1,"str":"chr \"foo\""},"mk_mat":{"class":["function"],"type":"closure","length":1,"str":"function (format, object, geneList, res, padj, n)"},"i":{"class":["integer"],"type":"integer","length":1,"str":"int 10"},"mk_heatmap":{"class":["function"],"type":"closure","length":1,"str":"function (format, rld, geneList, res, n, p)"}}
